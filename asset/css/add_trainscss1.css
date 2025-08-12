@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #006E7F;
+}
+.form-select option {
+    color: black;
+}
+nav img{
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.navbar .navbar-wraper .navbar-wraper-text{
+    font-size: 180%;
+    width: 300px;
+    margin: auto;
+}
+div ul{
+    margin: auto;
+}
+a{
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(217, 209, 209);
+    margin: 0px 20px;
+    border-radius: 5px;
+}

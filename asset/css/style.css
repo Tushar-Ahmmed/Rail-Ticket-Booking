@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(192, 5, 5);
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+}
+.container > .row > div{
+    font-size: 180%;
+}
+.btn{
+    background-color: aquamarine;
+    margin: 0px 10px;
+}
+
+.logo img{
+    width: 90px;
+    height: auto;
+}
+.logo{
+    padding: 5px 0px;
+}
+.sign{
+    margin-top: 20px;
+    text-align: right;
+}
+.btn2{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+    padding: 3px;
+    border-radius: 3px;
+}
+.btn2:hover{
+    color: white;
+    border: 1px solid white;
+    box-shadow: -1px -1px 14px 1px rgba(255,255,255,1);
+
+}
+.btn2:active{
+   
+    background-color: rgba(124, 124, 124, 0.564);
+}
+.blank{
+    padding: 50px;
+}
+.card{
+    border: none;
+    margin: 0 auto;
+    background-color: rgba(245, 243, 241, 0.434);
+}
+.card .card-body .card-title{
+    text-transform: uppercase;
+    color:rgb(198, 61, 15);
+}
+.card .card-body .card-text{
+    color: rgba(42, 45, 45, 0.909);
+}
+.card .card-body .card-subtitle{
+    color: rgba(0, 0, 255, 0.692);
+}

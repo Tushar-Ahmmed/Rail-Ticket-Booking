@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 10px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(192, 11, 11, 0.733);
+    color: rgb(255, 255, 255);
+}
+nav img{
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.navbar .navbar-wraper .navbar-wraper-text{
+    font-size: 180%;
+    width: 300px;
+    margin: auto;
+}
+h3{
+    color: aliceblue;
+}
+div>form{
+    font-size: 16px;
+}
+div .buy{
+    border: 1px solid white;
+    padding:20PX
+}
+div .buy form label{
+    width: 120px;
+}
+div .buy form select{
+    width: 150px;
+}
+div .buy form input{
+    width: 150px;
+}
+.none{
+    display: none;
+}
+.cancel{
+    border: none;
+    font-size: 180%;
+    padding: 5px;
+    border-radius: 3px;
+}
+.fs{
+    font-size: 20px;
+}
+table{
+    border-spacing: 3px;
+}
+table,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}

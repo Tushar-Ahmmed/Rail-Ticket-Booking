@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.option-container button a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-size: 10px;
+    background-color: #158CBA;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+nav img{
+    width: 70px;
+}
+nav div ul li{
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: 0px 10px;
+}
+nav div ul li:active{
+    background-color: #158CBA;
+}
+.nav-btn-center{
+display: flex;
+justify-content: center;
+}
+.nav-link{
+    font-size: 170%;
+}
+.profile{
+    padding: 20px;
+}
+.profile .admin-info{
+    text-align: center;
+}
+.profile .admin-info img{
+    width: 120px;
+}
+.profile .name{
+    font-size: 210%;
+}
+.profile .others{
+    margin-left: 20px;
+}
+.profile .others div p{
+    font-size: 170%;
+}
+.content-middle{
+   height: 50vh;
+}
+.container .row {
+    margin: 25px 0px;
+}
+.container .row .col-lg-4 .option-container{
+    width: 100%;
+    background-color: #4DD2FF;
+    border-radius: 10px;
+}
+.container .row .col-lg-4 .option-container .button{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    padding:20px;
+    font-weight: bold;
+    font-size: 190%;
+}
+.container .row .col-lg-4 .option-container:hover{
+    box-shadow: -3px 3px 3px 0px rgba(255,255,255,0.75);
+-webkit-box-shadow: -3px 3px 3px 0px rgba(255,255,255,0.75);
+-moz-box-shadow: -3px 3px 3px 0px rgba(255,255,255,0.75);
+transition-duration: 0.3s;
+}
+.container .row .col-lg-4 .option-container:active{
+    margin-top: 5px;
+    margin-left: 5px;
+}

@@ -1,0 +1,10 @@
+#removebtn{
+    background-color: #FFC23C;
+    border: none;
+    color: rgb(59, 54, 54);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#removebtn:hover{
+    background-color: #edc061;
+}
